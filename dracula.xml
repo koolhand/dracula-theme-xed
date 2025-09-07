@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="dracula" _name="Dracula" version="1.0">
+  <author>Dracula Theme</author>
+  <_description>Dracula theme for Xed</_description>
+
+  <!-- Dracula -->
+  <color name="Background"   value="#282A36"/>
+  <color name="CurrentLine"  value="#44475A"/>
+  <color name="Selection"    value="#44475A"/>
+  <color name="Foreground"   value="#F8F8F2"/>
+  <color name="Comment"      value="#6272A4"/>
+  <color name="Red"          value="#FF5555"/>
+  <color name="Orange"       value="#FFB86C"/>
+  <color name="Yellow"       value="#F1FA8C"/>
+  <color name="Green"        value="#50FA7B"/>
+  <color name="Cyan"         value="#8BE9FD"/>
+  <color name="Purple"       value="#BD93F9"/>
+  <color name="Pink"         value="#FF79C6"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="Foreground" background="Background"/>
+  <style name="selection"                   foreground="Foreground" background="Selection"/>
+  <style name="selection-unfocused"         foreground="Foreground" background="Selection"/>
+  <style name="cursor"                      foreground="Foreground"/>
+  <style name="secondary-cursor"            foreground="Foreground"/>
+  <style name="current-line"                background="CurrentLine"/>
+  <style name="line-numbers"                foreground="Comment" background="Background"/>
+  <style name="background-pattern"          background="Background"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="Pink"/>
+  <style name="bracket-mismatch"            foreground="Red" background="Background"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="Comment" background="Background"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="Foreground" background="Cyan"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="Comment"/>
+  <style name="def:shebang"                 foreground="Comment" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants and variables -->
+  <style name="def:constant"                foreground="Orange"/>
+  <style name="def:string"                  foreground="Green"/>
+  <style name="def:special-char"            foreground="Pink"/>
+  <style name="def:special-constant"        foreground="Orange" bold="true"/>
+  <style name="def:number"                  foreground="Orange"/>
+  <style name="def:floating-point"          foreground="Orange"/>
+  <style name="def:boolean"                 foreground="Orange"/>
+  <style name="def:keyword"                 foreground="Pink" bold="true"/>
+  <style name="def:builtin"                 foreground="Cyan" bold="true"/>
+  <style name="def:variable"                foreground="Foreground"/>
+
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="Foreground"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="Pink"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="Purple"/>
+
+  <!-- Operators -->
+  <style name="def:operator"                foreground="Pink"/>
+
+  <!-- Markup -->
+  <style name="def:emphasis"                foreground="Yellow" italic="true"/>
+  <style name="def:strong-emphasis"         foreground="Yellow" bold="true"/>
+  <style name="def:inline-code"             foreground="Green"/>
+  <style name="def:insertion"               underline="single"/>
+  <style name="def:deletion"                strikethrough="true"/>
+  <style name="def:link-text"               foreground="Cyan"/>
+  <style name="def:link-symbol"             foreground="Cyan" bold="true"/>
+  <style name="def:link-destination"        foreground="Cyan" italic="true" underline="single"/>
+  <style name="def:heading"                 foreground="Purple" bold="true"/>
+  <style name="def:thematic-break"          foreground="Comment" bold="true"/>
+  <style name="def:preformatted-section"    foreground="Green"/>
+  <style name="def:list-marker"             foreground="Pink" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="Pink"/>
+  <style name="def:error"                   foreground="Red" bold="true"/>
+  <style name="def:warning"                 background="Yellow"/>
+  <style name="def:note"                    foreground="Cyan" bold="true"/>
+  <style name="def:net-address"             foreground="Cyan" italic="true" underline="single"/>
+  <style name="def:underlined"              italic="true" underline="single"/>
+  <style name="def:function"                foreground="Yellow"/>
+
+  <!-- Diff -->
+  <style name="diff:location"               foreground="Orange"/>
+  <style name="diff:changed-line"           foreground="Purple"/>
+  <style name="diff:added-line"             foreground="Green"/>
+  <style name="diff:removed-line"           foreground="Red"/>
+  <style name="diff:special-case"           foreground="Orange"/>
+</style-scheme>
